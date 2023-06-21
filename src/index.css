@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "win95";
+  src: url("../public/fonts/w-95-sans-serif.woff") format("woff2"),
+    url("../public/fonts/w-95-sans-serif.woff") format("woff");
+}
+
+@layer components {
+  html {
+    @apply font-win95;
+    cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAh0lEQVRYhe2WSwrAIAxEJ6H3v3K6MaX110WbzCYPRNTFPKOIAGAgoq2nSSgAmBlNwitAk9D7gCGh/US2xCCQLTEVyJRYCmRJbAUyJI7VgogMLgCGya88KjAJla79ziXQwsUlUi+hh0eHLQW68NQqKEg7d3bh1ioQekSv7wAbA/nHVBRFURThnD/uMROGdeAFAAAAAElFTkSuQmCC"),
+      auto;
+  }
+  button {
+    @apply font-win95;
+  }
+  li {
+    @apply font-win95;
+  }
+}
