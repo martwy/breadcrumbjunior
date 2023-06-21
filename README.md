@@ -3,4 +3,5 @@
 
 # INFO
 
-Dynamic table with row selection and breadcrumb in win95 style.
+Dynamic table with row selection and breadcrumb in win95 style using RAWG Video Games Database API.
+Link to API: https://rawg.io/apidocs
